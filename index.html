@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Week 1 Homework - Alice Tseng</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	var q1 = "1?";
+	var q2 = "2?";
+	var q3 = "3?";
+	var q4 = "4?";
+	
+	var ans1 ="1";
+	var ans2 ="2";
+	var ans3 ="3";
+	var ans4 ="4";	
+	
+	var level = 0;
+	var check_ans = ans1;
+	
+	$("#submit").click(function(){
+		var user_ans = $("#answer").val();
+		if(user_ans == check_ans){
+			$("#status").html("It's 1!");
+			level = level+1;
+		}
+	
+		else{
+			$("#status").html("Nope, it's 1.");
+		}
+	}); //end submit click
+	
+	if(level == 0){
+		$("#question").text(q1);
+		check_answer = ans1;
+	}
+	else if(level == 1){
+		$("#question").text(q2);
+		check_answer = ans2;
+	}
+	else if(level == 2){
+		$("#question").text(q3);
+		check_answer = ans3;
+	}
+	else if(level == 3){
+		$("#question").text(q4);
+		check_answer = ans4;
+	}
+		$("#question").text(q1);
+
+}); //end document ready
+
+</script>
+</head>
+
+<body>
+
+<div id="question">I say wut wut</div>
+<input type="text" id="answer" />
+<input type="button" id="submit" value="Submit" />
+<div id="status"></div>
+
+</body>
+</html>
