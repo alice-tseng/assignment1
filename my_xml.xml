@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+  <item>
+    <id>0</id>
+    <image>http://imagesci.com/img/2013/04/pikachu-wallpaper-5407-hd-wallpapers.jpg</image>
+    <title>Pikachu</title>
+    <desc>Pikachu is a short, chubby rodent Pokémon. It is covered in yellow fur, and its ears are long and pointed with black tips. It has a small mouth, brown eyes, and two red circles on its cheeks. There are pouches inside its cheeks where it stores electricity. Its forearms are short, with five fingers on each paw, and its feet have three toes. It has two brown stripes on its back, and its tail is in the shape of a lightning bolt with a patch of brown fur at the base. A female will have a V-shaped notch at the end of its tail. It is classified as a quadruped, but it has been known to stand and walk on its hind legs.</desc>
+  </item>
+  <item>
+    <id>1</id>
+    <image>http://cdn.bulbagarden.net/upload/thumb/e/e2/133Eevee.png/250px-133Eevee.png</image>
+    <title>Eevee</title>
+    <desc>Eevee is a mammalian, quadruped creature with primarily brown fur. The tip of its bushy tail and its large furry collar are cream-colored. It has short, slender legs with three small toes and a pink paw pad on each foot. Eevee has brown eyes, long pointed ears, and a small black nose. This Pokémon is rarely found in the wild, and is mostly only found in cities and towns. However, Eevee is said to have an irregularly shaped genetic structure that allows it to adapt to many different kinds of environments. Eventually, Eevee may evolve to better suit its surroundings. According to Pokémon Mystery Dungeon, Eevee has a naive personality. This means that it is childlike, playful, and friendly.</desc>
+  </item>
+  <item>
+    <id>2</id>
+    <image>http://images.latinospost.com/data/images/full/23838/pokemon-jpg.jpg</image>
+    <title>Something-mon</title>
+    <desc>This is Something Mon</desc>
+  </item>
+</items>
